@@ -59,7 +59,7 @@ applying fundamental data analysis techniques.
 -   Data Cleaning
 -   Exploratory Data Analysis
 
-🔗 **Repository:** [Task 1 Repository](YOUR_TASK_1_GITHUB_LINK)
+🔗 **Repository:** [Task 1 Repository](https://github.com/Abhishek2005-coder/ApexPlanet-Data-Analytics-Internship-Task-1-Data-Immersion-Wrangling)
 
 ------------------------------------------------------------------------
 
@@ -76,7 +76,7 @@ through visualizations.
 -   Data Analysis
 -   Exploratory Data Analysis
 
-🔗 **Repository:** [Task 2 Repository](YOUR_TASK_2_GITHUB_LINK)
+🔗 **Repository:** [Task 2 Repository](https://github.com/Abhishek2005-coder/ApexPlanet-Task-2-Data-Analytics)
 
 ------------------------------------------------------------------------
 
@@ -93,7 +93,7 @@ generate insights, and present analytical results.
 -   Data Analysis
 -   Data Visualization
 
-🔗 **Repository:** [Task 3 Repository](YOUR_TASK_3_GITHUB_LINK)
+🔗 **Repository:** [Task 3 Repository](https://github.com/Abhishek2005-coder/ApexPlanet-Task-3-Sales-Analytics-PowerBI)
 
 ------------------------------------------------------------------------
 
@@ -111,7 +111,7 @@ analysis, visualization, and presentation of meaningful insights.
 -   Data Visualization
 -   Dashboard Development
 
-🔗 **Repository:** [Task 4 Repository](YOUR_TASK_4_GITHUB_LINK)
+🔗 **Repository:** [Task 4 Repository](https://github.com/Abhishek2005-coder/ApexPlanet-Data-Analytics-Task-4)
 
 ------------------------------------------------------------------------
 
