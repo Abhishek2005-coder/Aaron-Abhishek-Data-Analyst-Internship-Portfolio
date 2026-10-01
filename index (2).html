@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aaron Abhishek | Data Analyst Internship Portfolio</title>
+<meta name="description" content="Four-part data analytics internship at ApexPlanet Software: EDA, SQL, cohort and RFM analysis, and statistical storytelling.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#FAFBFD;--ink:#0F1B2D;--mute:#56657A;--blue:#1565C0;--tint:#E3EEFB;--line:#D5DEEA}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 "IBM Plex Sans",system-ui,sans-serif}
+a{color:var(--blue)}
+a:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.wrap{max-width:960px;margin:0 auto;padding:0 1.5rem}
+nav{border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:1rem;padding-bottom:1rem;flex-wrap:wrap;gap:.5rem}
+nav strong{font-weight:600}
+nav a{margin-left:1.25rem;text-decoration:none;color:var(--mute);font-size:.95rem}
+nav a:hover{color:var(--blue)}
+h1,h2{font-family:"IBM Plex Serif",Georgia,serif;font-weight:600;line-height:1.15;margin:0}
+h1{font-size:clamp(2.1rem,5vw,3.4rem);max-width:17ch}
+h2{font-size:1.75rem;margin-bottom:1.25rem}
+section{padding:3.5rem 0;border-bottom:1px solid var(--line)}
+.hero{padding:4rem 0 3.5rem}
+.lede{max-width:60ch;color:var(--mute);margin:1.25rem 0 2rem}
+.bars{max-width:640px;margin:2rem 0}
+.bar-row{display:grid;grid-template-columns:130px 1fr;gap:1rem;align-items:center;margin:.6rem 0;font-size:.95rem}
+.track{background:var(--tint);height:30px;border-radius:3px;overflow:hidden}
+.fill{height:100%;background:var(--blue);color:#fff;font-weight:600;font-size:.85rem;display:flex;align-items:center;padding-left:.6rem;white-space:nowrap}
+.fill.small{background:var(--ink);width:5.7%;min-width:3.2rem}
+.caption{color:var(--mute);font-size:.9rem;margin-top:.75rem}
+.btns a{display:inline-block;margin:0 .75rem .5rem 0;padding:.65rem 1.2rem;border-radius:4px;text-decoration:none;font-weight:500;border:2px solid var(--blue)}
+.btns a.p{background:var(--blue);color:#fff}
+.part{display:grid;grid-template-columns:7rem 1fr;gap:1rem;padding:1.1rem 0;border-top:1px solid var(--line)}
+.part:first-of-type{border-top:0}
+.part b{color:var(--blue);font-weight:600}
+.part p{margin:.2rem 0 .4rem;color:var(--mute)}
+table{width:100%;border-collapse:collapse;font-size:.97rem}
+th,td{text-align:left;padding:.65rem .75rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--tint);font-weight:600}
+.scroll{overflow-x:auto}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem 2rem}
+.skills h3{margin:0 0 .3rem;font-size:1rem;color:var(--blue)}
+.skills p{margin:0;color:var(--mute);font-size:.97rem}
+footer{padding:2rem 0 3rem;color:var(--mute);font-size:.9rem}
+@media(max-width:560px){.bar-row{grid-template-columns:1fr}.part{grid-template-columns:1fr;gap:0}}
+@media(prefers-color-scheme:dark){:root{--paper:#0D1623;--ink:#E8EEF7;--mute:#9FB0C6;--blue:#6AA8F0;--tint:#16263B;--line:#24364D}.fill{color:#0D1623}.fill.small{background:#E8EEF7}.btns a.p{color:#0D1623}}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><strong>Aaron Abhishek</strong>
+<div><a href="#parts">Projects</a><a href="#findings">Findings</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></div></nav>
+
+<main>
+<header class="hero"><div class="wrap">
+<h1>Electronics leads by volume, not price.</h1>
+<p class="lede">Order value is the same across gender and category, so growth has to come from more orders. That is the result of my ApexPlanet Software internship: 992 orders, ₹138.1M in revenue, and four hypothesis tests behind every claim.</p>
+<div class="bars" role="img" aria-label="Revenue by category in millions of rupees: Electronics 50.6, Education 25.0, Grocery 21.4, Furniture 21.3, Fashion 19.8">
+<div class="bar-row"><span>Electronics</span><div class="track"><div class="fill" style="width:100%">₹50.6M</div></div></div>
+<div class="bar-row"><span>Education</span><div class="track"><div class="fill" style="width:49.4%">₹25.0M</div></div></div>
+<div class="bar-row"><span>Grocery</span><div class="track"><div class="fill" style="width:42.3%">₹21.4M</div></div></div>
+<div class="bar-row"><span>Furniture</span><div class="track"><div class="fill" style="width:42.1%">₹21.3M</div></div></div>
+<div class="bar-row"><span>Fashion</span><div class="track"><div class="fill" style="width:39.1%">₹19.8M</div></div></div>
+<p class="caption">Revenue by category. Electronics is 35.5% of orders; order values are similar everywhere.</p>
+</div>
+<div class="btns"><a class="p" href="#parts">See the four projects</a><a href="presentation/ApexPlanet_Task4_Final_Presentation.pdf">Open final presentation</a></div>
+</div></header>
+
+<section id="parts"><div class="wrap">
+<h2>Four internship parts</h2>
+<div class="part"><b>Part 1</b><div><strong>Data wrangling and EDA</strong><p>Cleaned the sales data (8 duplicate orders removed) and explored categories and trends.</p><a href="https://github.com/Abhishek2005-coder/ApexPlanet-Data-Analytics-Internship-Task-1-Data-Immersion-Wrangling">View repository</a></div></div>
+<div class="part"><b>Part 2</b><div><strong>SQL business intelligence</strong><p>Wrote queries that answer business questions and produce KPI tables.</p><a href="https://github.com/Abhishek2005-coder/ApexPlanet-Task-2-Data-Analytics">View repository</a></div></div>
+<div class="part"><b>Part 3</b><div><strong>Sales analytics and Power BI dashboard</strong><p>Defined KPIs, analysed cohorts and customer segments, and built a Power BI sales dashboard.</p><a href="https://github.com/Abhishek2005-coder/ApexPlanet-Task-3-Sales-Analytics-PowerBI">View repository</a></div></div>
+<div class="part"><b>Part 4</b><div><strong>Data storytelling and statistical validation</strong><p>Tested hypotheses and turned the results into a story and a presentation deck.</p><a href="https://github.com/Abhishek2005-coder/ApexPlanet-Data-Analytics-Task-4">View repository</a></div></div>
+</div></section>
+
+<section id="findings"><div class="wrap">
+<h2>What the tests showed</h2>
+<div class="scroll"><table>
+<thead><tr><th>Question</th><th>Test</th><th>p-value</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>Do men and women spend differently per order?</td><td>Welch t-test</td><td>0.45</td><td>No difference</td></tr>
+<tr><td>Does order value differ by category?</td><td>ANOVA</td><td>0.59</td><td>No difference</td></tr>
+<tr><td>Does category mix differ by gender?</td><td>Chi-squared</td><td>0.056</td><td>Borderline, not significant</td></tr>
+<tr><td>Does Electronics get more than 20% of orders?</td><td>Binomial</td><td>below 0.001</td><td>Yes, 35.5%</td></tr>
+</tbody></table></div>
+<p>Revenue is flat across 2025 with an August to September dip, and only 5.3% of 941 customer IDs ordered more than once. The recommendations: drop segment-specific pricing, protect Electronics, promote in August and September, and launch a loyalty programme.</p>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills demonstrated</h2>
+<div class="skills">
+<div><h3>Programming</h3><p>Python, pandas, NumPy, Jupyter</p></div>
+<div><h3>Analysis</h3><p>EDA, KPI design, cohorts, CLV, RFM, K-means</p></div>
+<div><h3>Statistics</h3><p>Hypothesis testing, confidence intervals</p></div>
+<div><h3>SQL</h3><p>Joins, aggregations, window functions, CTEs</p></div>
+<div><h3>Visualisation</h3><p>Matplotlib, Seaborn, Power BI and interactive dashboards</p></div>
+<div><h3>Communication</h3><p>Data storytelling, documentation, presentations</p></div>
+</div></div></section>
+
+<section id="contact" style="border-bottom:0"><div class="wrap">
+<h2>Get in touch</h2>
+<p>Computer Science and Engineering graduate (2026), Tiptur, Karnataka. Open to data analyst roles.</p>
+<div class="btns"><a class="p" href="https://www.linkedin.com/in/aaron-abhishek-607757290">LinkedIn</a><a href="https://github.com/Abhishek2005-coder">GitHub</a><a href="mailto:aaronabhishek613@gmail.com">Email</a></div>
+</div></section>
+</main>
+<footer><div class="wrap">Dataset: ApexPlanet Software internship sales data. Built for learning and portfolio purposes.</div></footer>
+</body>
+</html>
